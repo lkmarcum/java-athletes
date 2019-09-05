@@ -1,9 +1,6 @@
 package com.lambdaschool.solution;
 
-public class Athlete
+public interface Athlete
 {
-    public void displayAthlete(String sport, String position)
-    {
-        System.out.println(sport + position);
-    }
+    public void displayAthlete(String sport, String position);
 }

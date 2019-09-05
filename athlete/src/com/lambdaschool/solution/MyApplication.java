@@ -10,8 +10,11 @@ public class MyApplication implements Processor
     }
 
     @Override
-    public void displayAthlete()
+    public void displayAthlete(String sport, String athlete)
     {
+        System.out.println("************");
+        System.out.println(sport + " " + athlete);
+        System.out.println("************");
         System.out.println();
     }
 }
